@@ -1,7 +1,7 @@
 // src/api.ts
 
 export type Student = {
-    id?: number; // id is optional when creating a new student
+    id?: number; 
     name: string;
     gpa: number;
   };

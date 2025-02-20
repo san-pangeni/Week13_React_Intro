@@ -4,7 +4,7 @@ import { Student, removeStudent } from "./api";
 
 export function renderStudents(students: Student[]): void {
   const cardContainer = document.querySelector("#cardsContainer") as HTMLDivElement;
-  cardContainer.innerHTML = ""; // clear any existing content
+  cardContainer.innerHTML = ""; 
 
   students.forEach((student) => {
     const card = document.createElement("div");
@@ -23,7 +23,7 @@ export function renderStudents(students: Student[]): void {
     deleteButton.addEventListener("click", async () => {
       if (student.id !== undefined) {
         await removeStudent(student.id);
-        card.remove(); // remove card from the UI
+        card.remove(); 
       }
     });
 

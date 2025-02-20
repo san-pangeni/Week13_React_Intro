@@ -1,8 +1,5 @@
 // src/main.ts
 
-// Optional: If you prefer to import Bootstrap via JS, install it via npm and uncomment the following:
-// import "bootstrap/dist/css/bootstrap.min.css";
-
 import { fetchStudents, createStudent, Student } from "./api";
 import { renderStudents } from "./ui";
 
@@ -39,5 +36,5 @@ studentForm.addEventListener("submit", async (event: Event) => {
   }
 });
 
-// Load students on page load
+
 loadStudents();
