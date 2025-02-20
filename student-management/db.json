@@ -1,0 +1,19 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "gpa": 3.8
+    },
+    {
+      "id": "008e",
+      "name": "Harry ",
+      "gpa": 3.3
+    },
+    {
+      "id": "d556",
+      "name": "pit",
+      "gpa": 2.2
+    }
+  ]
+}
